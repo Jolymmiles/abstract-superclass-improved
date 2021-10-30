@@ -9,11 +9,8 @@ public class BaseEllipse extends AbstractEllipse {
     @Override
     public String toString() {
         return "Ellipse\n" +
-                "R1=" + r1 +
-                ", R2=" + r2 +
-                ", Area: " + getArea() +
-                ", Perimeter: " + getPerimetr() +
-                ", Color: " + getColor() +
-                ", Filled: " + isFilled();
+                "R1: " + r1 +
+                ", R2: " + r2 +
+                super.toString();
     }
 }

@@ -13,9 +13,6 @@ public class BaseRectangle extends AbstarctRectangle{
         return "Rectangle\n" +
                 "Width: " + this.width +
                 ", Height: " + this.height +
-                ", Area: " + getArea() +
-                ", Perimetr: " + getPerimetr() +
-                ", Color: " + getColor() +
-                ", Filled: " + isFilled();
+                super.toString();
     }
 }

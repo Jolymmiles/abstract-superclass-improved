@@ -1,7 +1,4 @@
-import Shape.BaseEllipse;
-import Shape.BaseRectangle;
-import Shape.Circle;
-import Shape.Squre;
+import Shape.*;
 
 public class Main {
     public static void main(String[] args) {

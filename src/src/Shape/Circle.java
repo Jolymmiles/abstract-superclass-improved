@@ -9,10 +9,7 @@ public class Circle extends AbstractEllipse {
     @Override
     public String toString() {
         return "Circle\n" +
-                "R" + r1 +
-                ", Area: " + getArea() +
-                ", Perimeter: " + getPerimetr() +
-                ", Color: " + getColor() +
-                ", Filled: " + isFilled();
+                "R: " + r1 +
+                super.toString();
     }
 }

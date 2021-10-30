@@ -10,9 +10,6 @@ public class Squre extends AbstarctRectangle{
     public String toString() {
         return  "Square\n" +
                 "Side: " + this.height +
-                ", Area: " + getArea() +
-                ", Perimetr:  " + getPerimetr() +
-                ", Color: " + getColor() +
-                ", Filled: " + isFilled();
+                super.toString();
     }
 }

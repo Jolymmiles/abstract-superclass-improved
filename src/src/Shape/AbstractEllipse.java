@@ -13,4 +13,5 @@ public class AbstractEllipse extends AbstarctShape{
     public double getPerimetr() {
         return 4*((Math.PI*this.r1*this.r2 + (this.r1 + this.r2))/(this.r1 + this.r2));
     }
+
 }
